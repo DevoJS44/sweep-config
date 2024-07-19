@@ -35,8 +35,8 @@
         default_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  Q       │  W       │  F       │  P       │  G       │   │  J       │  L       │  U       │  Y       │ BACKSLASH │
-            &kp Q      &kp W      &kp F      &kp P      &kp G          &kp J      &kp L      &kp U      &kp Y      &kp BACKSLASH
+        //│  Q       │  W       │  F       │  P       │  G       │   │  J       │  L       │  U       │  Y       │ BACKSLASH│
+            &kp Q      &kp W      &kp F      &kp P      &kp G          &kp J      &kp L      &kp U      &kp Y      &kp BSLH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  R       │  S       │  T       │  D       │   │  H       │  N       │  E       │  I       │ ' "      │
             HRML(A,        R,         S,         T)     &kp D          &kp H      HRMR(N,        E,         I,        SQT)
@@ -53,7 +53,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ `        │          │          │          │          │   │ LEFT     │ DOWN     │ -_       │ +=       │  ;       │
-            &GRAVE    &trans      &trans     &trans     &trans         &kp LARW   &kp DARW   &kp MINUS &kp EQUAL   &kp SEMI
+            &kp GRAVE    &trans      &trans     &trans     &trans      &kp LARW   &kp DARW   &kp MINUS &kp EQUAL   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ 1        │  2       │  3       │  4       │    5     │   │ 6        │ 7        │ 8        │ 9        │  0       │
             HRML( N1   , N2     , N3     ,     N4    ) &kp N5         &kp N6    HRMR( N7,      N8,        N9,        N0)
@@ -70,10 +70,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ ESCAPE   │          │          │          │              │BRIGHT UP │   MUTE   │ VOL DOWN │  VOL UP  │  DELETE  │
-            &kp ESC    &trans     &kp PIPE    &trans    &trans       &kp C_BRI_UP &kp C_MUTE &C_VOL_DN  &C_VOL_UP  &kp DEL  
+            &kp ESC    &trans     &trans       &trans    &trans       &kp C_BRI_UP &kp C_MUTE &C_VOL_DN  &C_VOL_UP  &kp DEL  
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  LEFT    │  UP      │  RIGHT   │  PG UP   │   │BRT DN    │  PREV    │  PLAY    │  NEXT    │          │
-            &trans   &kp LARW     &kp UARW  &kp RARW   &kp PG_UP    &kp C_BRI_DN &kp C_PREV  &kp C_PP    C_NEXT   &trans
+            &trans   &kp LARW     &kp UARW  &kp RARW   &kp PG_UP    &kp C_BRI_DN &kp C_PREV  &kp C_PP   &kp C_NEXT   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │  DOWN    │          │  PG DN   │   │          │          │          │          │          │
             &trans    &trans     &kp DARW    &trans      $kp PG_DN        &trans   &trans     &trans    &trans     &trans
