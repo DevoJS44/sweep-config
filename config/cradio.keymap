@@ -55,8 +55,8 @@
         //│ `        │          │          │          │          │   │          │          │ -_       │ +=       │  ;       │
             &kp GRAVE    &trans      &trans     &trans     &trans      &trans     &trans    &kp MINUS   &kp EQUAL   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-            &kp DEL    &kp N4     &kp N5     &kp N6     &trans         &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
+         //│ 1        │  2       │  3       │  4       │    5     │   │ 6        │ 7        │ 8        │ 9        │  0       │
+            HRML( N1   , N2     , N3     ,     N4    ) &kp N5         &kp N6    HRMR( N7,      N8,        N9,        N0)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
            &caps_word  &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
