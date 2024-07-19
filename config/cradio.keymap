@@ -77,7 +77,7 @@
             &trans   &kp LEFT     &kp UP  &kp RIGHT   &kp PG_UP    &kp C_BRI_DN &kp C_PREV  &kp C_PP   &kp C_NEXT   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │  DOWN    │          │  PG DN   │   │          │          │          │          │          │
-            &trans    &trans     &kp DOWN    &trans     $kp PG_DN        &trans   &trans     &trans    &trans     &trans
+            &trans    &trans     &kp DOWN    &trans     &kp PG_DN        &trans   &trans     &trans    &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
