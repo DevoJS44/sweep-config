@@ -70,11 +70,11 @@
        left_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ ESCAPE   │          │  UP      │          │  PG UP       │BRIGHT UP │   MUTE   │ VOL DOWN │  VOL UP  │  DELETE  │
-            &kp ESC    &trans     &kp UP       &trans  &kp PG_UP      &kp C_BRI_UP &kp C_MUTE &kp C_VOL_DN  &kp C_VOL_UP  &kp DEL  
+        //│ ESCAPE   │          │          │          │  PG UP       │BRIGHT UP │   MUTE   │ VOL DOWN │  VOL UP  │  DELETE  │
+            &kp ESC    &trans     &trans     &trans  &kp PG_UP      &kp C_BRI_UP &kp C_MUTE &kp C_VOL_DN  &kp C_VOL_UP  &kp DEL  
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │  LEFT    │  DOWN    │  RIGHT   │  PG DN   │   │BRT DN    │  PREV    │  PLAY    │  NEXT    │          │
-            &trans   &kp LEFT     &kp DOWN  &kp RIGHT   &kp PG_DN    &kp C_BRI_DN &kp C_PREV  &kp C_PP   &kp C_NEXT   &trans
+        //│  LEFT    │  DOWN    │  UP      |  RIGHT   │  PG DN   │   │BRT DN    │  PREV    │  PLAY    │  NEXT    │          │
+           &kp LEFT     &kp DOWN  &kp UP     &kp RIGHT   &kp PG_DN    &kp C_BRI_DN &kp C_PREV  &kp C_PP   &kp C_NEXT   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &trans    &trans     &trans   &trans     &trans        &trans   &trans     &trans    &trans     &trans
